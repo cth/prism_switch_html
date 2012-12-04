@@ -1,9 +1,10 @@
-PRISM parameter file visualizer
-===============================
+### PRISM parameter file visualizer
 
-This is a simple tool for inspecting and visualizing the parameters of a PRISM. 
+This is a simple tool for inspecting and visualizing the parameters of a PRISM program, which have been saved 
+to file using the PRISM `save_sw` command. 
+
 When dealing with PRISM programs with many parameters it can be tedious to inspect these using only 
-the saved switch file or by interactive reporting, e.g., show_sw.
+the saved switch file or by interactive reporting, e.g., `show_sw`.
 
 This tool transforms a PRISM parameters file to a HTML file which shows the parameters arranged in HTML tables. 
 The cells of the table are color-coded to provide a visual overview. Relatively high probabilities are colored in 
@@ -15,8 +16,7 @@ Then to produce an HTML visualization of a parameter file, type
 
 	sw_to_html('examples/example.sw', 'examples/example.html').
 
-License
--------
+## License
 
 Copyright (C) 2012 Christian Theil Have 
 
