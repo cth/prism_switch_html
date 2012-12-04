@@ -13,7 +13,7 @@ To use it consult the 'sw_to_html.pl' from prism (or b-prolog).
 
 Then to produce an HTML visualization of a parameter file, type
 
-sw_to_html('examples/example.sw', 'examples/example.html').
+	sw_to_html('examples/example.sw', 'examples/example.html').
 
 License
 -------
